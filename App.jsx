@@ -68,8 +68,8 @@ function App() {
         {/* Right Action */}
         <div className="w-24 flex justify-end opacity-0 animate-fade-in" style={{ animationDelay: '0.4s' }}>
           <a href="#contact" className="hidden md:flex items-center gap-2 text-[10px] font-bold tracking-widest uppercase border border-white/20 px-4 py-2 rounded hover:bg-white/5 hover:border-accent-main/50 transition-all duration-300 text-neutral-300">
-            <Lock className="w-3 h-3 text-accent-main" />
-            Access
+            <Mail className="w-3 h-3 text-accent-main" />
+            Contact Us
           </a>
           <button className="md:hidden text-white"><Menu className="w-6 h-6" /></button>
         </div>
@@ -554,7 +554,7 @@ function App() {
               <div>
                 <p className="text-neutral-500 text-[10px] font-bold tracking-widest uppercase mb-2">Head Office Contact</p>
                 <p className="text-neutral-400 font-mono text-sm tracking-wide">
-                  <span className="text-neutral-600">P:</span> +6221 4584.3020 <span class="mx-3 text-neutral-800">|</span> <span className="text-neutral-600">F:</span> +6221 4584.3022
+                  <span className="text-neutral-600">P:</span> +6221 4584.3020 <span className="mx-3 text-neutral-800">|</span> <span className="text-neutral-600">F:</span> +6221 4584.3022
                 </p>
               </div>
 
@@ -576,7 +576,7 @@ function App() {
             
           {/* Bottom Bar */}
           <div className="mt-24 flex flex-col md:flex-row justify-between items-center gap-6 pt-8 border-t border-white/5">
-            <span className="text-neutral-600 text-[10px] uppercase tracking-widest">© 2024 Primus Indonesia</span>
+            <span className="text-neutral-600 text-[10px] uppercase tracking-widest">© 2026 PT. Primus Indonesia. All rights reserved.</span>
             <div className="flex gap-6">
               <a href="#" className="text-neutral-600 hover:text-white transition-colors text-[10px] uppercase tracking-widest">LinkedIn</a>
               <a href="#" className="text-neutral-600 hover:text-white transition-colors text-[10px] uppercase tracking-widest">Twitter</a>
