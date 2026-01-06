@@ -383,6 +383,38 @@ function App() {
         </div>
       </section>
 
+      {/* OUR PRINCIPALS Section */}
+      <section id="principals" className="relative z-30 py-32 px-6 md:px-12 border-t border-white/5 bg-midnight-950">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center max-w-4xl mx-auto mb-20">
+            <span className="text-accent-main text-[10px] font-bold tracking-widest uppercase mb-4 block">Our Partners</span>
+            <h2 className="text-3xl md:text-5xl font-display text-white mb-8">Our Principals</h2>
+            <p className="text-neutral-400 font-light leading-relaxed">
+              As PI continues to focus on continuous solution development to meet our clients’ evolving needs, we collaborate with some of the most reputable companies in technology and logistics solutions. Our business partners are industry leaders at the forefront of innovation, supporting the delivery of reliable, scalable, and future-ready IT and logistics services. Meet some of our valued partners:
+            </p>
+          </div>
+
+          {/* Principals Grid */}
+          <div className="flex flex-wrap justify-center gap-10 md:gap-20 items-center">
+            {[
+              "https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/principal1.png",
+              "https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/principal2.png",
+              "https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/principal3.png",
+              "https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/principal4.png",
+              "https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/principal5.png"
+            ].map((url, index) => (
+              <div key={index} className="w-40 h-16 flex items-center justify-center">
+                <img 
+                  src={url} 
+                  alt={`Principal Logo ${index + 1}`} 
+                  className="w-full h-full object-contain" 
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer id="contact" className="relative z-30 py-24 px-6 border-t border-white/5 bg-black">
         <div className="max-w-7xl mx-auto text-center">
