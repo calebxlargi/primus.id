@@ -369,9 +369,9 @@ function App() {
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-8 gap-y-12 items-center justify-items-center">
             
             {Array.from({ length: 48 }).map((_, index) => (
-              <div key={index} className="client-logo w-32 h-12 flex items-center justify-center grayscale opacity-70 hover:opacity-100 hover:grayscale-0 transition-all duration-300 hover:scale-105">
+              <div key={index} className="w-32 h-12 flex items-center justify-center">
                 <img 
-                  src={`https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/${index + 1}.png`} 
+                  src={`https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/client${index + 1}.png`} 
                   alt={`Client Logo ${index + 1}`} 
                   className="w-full h-full object-contain" 
                 />
