@@ -371,7 +371,7 @@ function App() {
             {Array.from({ length: 48 }).map((_, index) => (
               <div key={index} className="w-32 h-12 flex items-center justify-center">
                 <img 
-                  src={`https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/client${index + 1}.png`} 
+                  src={`https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/${index + 1}client.png`} 
                   alt={`Client Logo ${index + 1}`} 
                   className="w-full h-full object-contain" 
                 />
