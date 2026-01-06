@@ -397,11 +397,11 @@ function App() {
           {/* Principals Grid */}
           <div className="flex flex-wrap justify-center gap-10 md:gap-20 items-center">
             {[
-              "https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/principal1.png",
-              "https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/principal2.png",
-              "https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/principal3.png",
-              "https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/principal4.png",
-              "https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/principal5.png"
+              "https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/1principle.png",
+              "https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/2principle.png",
+              "https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/3principle.png",
+              "https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/4principle.png",
+              "https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/5principle.png"
             ].map((url, index) => (
               <div key={index} className="w-40 h-16 flex items-center justify-center">
                 <img 
