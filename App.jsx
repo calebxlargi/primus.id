@@ -366,10 +366,11 @@ function App() {
           </div>
 
           {/* Consolidated Logo Grid - 48 Images */}
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-8 gap-y-12 items-center justify-items-center">
+          {/* Tighter Grid Layout */}
+          <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 gap-4 gap-y-8 items-center justify-items-center">
             
             {Array.from({ length: 48 }).map((_, index) => (
-              <div key={index} className="w-32 h-12 flex items-center justify-center">
+              <div key={index} className="w-24 h-10 flex items-center justify-center">
                 <img 
                   src={`https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/${index + 1}client.png`} 
                   alt={`Client Logo ${index + 1}`} 
@@ -521,7 +522,7 @@ function App() {
               <div>
                 <p className="text-neutral-500 text-[10px] font-bold tracking-widest uppercase mb-2">Head Office Contact</p>
                 <p className="text-neutral-400 font-mono text-sm tracking-wide">
-                  <span className="text-neutral-600">P:</span> +6221 4584.3020 <span className="mx-3 text-neutral-800">|</span> <span className="text-neutral-600">F:</span> +6221 4584.3022
+                  <span className="text-neutral-600">P:</span> +6221 4584.3020 <span class="mx-3 text-neutral-800">|</span> <span className="text-neutral-600">F:</span> +6221 4584.3022
                 </p>
               </div>
 
