@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { 
+    background-color: #020408;
+    color: #e2e8f0;
+}
+
+/* Noise Texture */
+.bg-noise {
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.04'/%3E%3C/svg%3E");
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #020408; }
+::-webkit-scrollbar-thumb { background: #3f1012; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #D2232A; }
+
+/* Text Selection */
+::selection { background: rgba(210, 35, 42, 0.3); color: white; }
+
+/* Navigation Dock Hover Effect */
+.nav-link {
+    position: relative;
+}
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    background: #D2232A;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Connecting Lines for Diagram */
+.connector-line {
+    position: absolute;
+    background: linear-gradient(to bottom, #D2232A, transparent);
+    width: 1px;
+    opacity: 0.3;
+}
+
+/* Client Logo Hover */
+.client-logo {
+    filter: grayscale(100%) opacity(0.5);
+    transition: all 0.3s ease;
+}
+.client-logo:hover {
+    filter: grayscale(0%) opacity(1);
+    transform: scale(1.05);
+}
