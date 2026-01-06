@@ -354,7 +354,7 @@ function App() {
         </div>
       </section>
 
-      {/* CLIENTS / PARTNERS Section */}
+      {/* CLIENTS / PARTNERS Section (Consolidated) */}
       <section id="clients" className="relative z-30 py-32 px-6 md:px-12 border-t border-white/5 bg-midnight-950">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-20">
@@ -365,249 +365,18 @@ function App() {
             </p>
           </div>
 
-          {/* Logo Grid */}
+          {/* Consolidated Logo Grid - 48 Images */}
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-8 gap-y-12 items-center justify-items-center">
-                
-            {/* Ports & Logistics */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="JICT">
-              <svg viewBox="0 0 100 30" className="fill-current text-white w-full h-full"><path d="M10,25h-5v-18h15v5h-10v13zm15,0h5v-20h-5v20zm15,0h5v-20h-5v20zm15,0h15v5h-15v-5zm0-15h15v5h-15v-5z"></path></svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Pelindo">
-              <svg viewBox="0 0 120 40" className="fill-current text-white w-full h-full"><path d="M20,10 L35,10 C42,10 42,20 35,20 L25,20 L25,30 L20,30 Z M25,15 L25,16 L35,16 C37,16 37,14 35,14 L25,14 Z M50,30 L50,10 L65,10 L65,14 L55,14 L55,18 L63,18 L63,22 L55,22 L55,26 L65,26 L65,30 Z M75,30 L75,10 L80,10 L80,26 L90,26 L90,30 Z"></path></svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="IPC">
-              <svg viewBox="0 0 80 40" className="fill-current text-white w-full h-full"><path d="M10,10h5v20h-5z M25,10h12c5,0 5,10 0,10h-7v10h-5z M30,14v3h5c1,0 1,-3 0,-3z M50,10h15v5h-10v10h10v5h-15z"></path></svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="TPS">
-              <svg viewBox="0 0 100 30" className="fill-current text-white w-full h-full"><path d="M10,5h20v5h-7.5v20h-5v-20h-7.5z M40,5h12c5,0 5,10 0,10h-7v10h-5z M45,9v3h5c1,0 1,-3 0,-3z M65,20h10c2,0 2,3 0,3h-10v5h10c5,0 5,-6 1,-7c3,-1 3,-5 0,-6h-11z"></path></svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Kuantan Port">
-              <span className="text-xs font-bold tracking-widest text-white uppercase text-center border border-white/20 px-2 py-1 rounded">Kuantan Port</span>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="NPCT1">
-              <span className="text-lg font-bold text-white tracking-tighter">NPCT1</span>
-            </div>
-
-            {/* Telco */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Telkomsel">
-              <svg viewBox="0 0 120 30" className="fill-current text-white w-full h-full">
-                <path d="M0,15 L10,5 L20,15 L10,25 Z" opacity="0.8"></path>
-                <path d="M30,5h18v4h-7v16h-4v-16h-7z M55,5h15v4h-11v4h10v4h-10v4h11v4h-15z M75,5h4v16h10v4h-14z"></path>
-              </svg>
-            </div>
-            <div className="client-logo w-12 h-12 flex items-center justify-center" title="Huawei">
-              <svg viewBox="0 0 24 24" className="fill-current text-white w-full h-full"><path d="M12 2C10.5 2 9 3 9 5s1.5 6 3 6 3-4 3-6-1.5-3-3-3zm-5 4C6 5 4 6 4 8s3 5 4 6 1.5-4 1.5-5-1.5-3-2.5-3zm10 0c-1 0-2.5 1-2.5 3s.5 4 1.5 5 4-1 4-6-2-2-3-2zM4.5 14C3 15 2 17 2 18s4 2 6 2 2.5-3 2.5-5c0-3-5-2-6-1zm15 0c-1-1-6-2-6 1 0 2 2.5 5 2.5 5s2-1 6-2c0-1-1-3-2.5-4z"></path></svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Indosat">
-              <svg viewBox="0 0 120 30" className="fill-current text-white w-full h-full">
-                <circle cx="10" cy="15" r="8" opacity="0.8"></circle>
-                <path d="M30,10h4v10h-4z M40,10h4v3h5v-3h4v10h-4v-5h-5v5h-4z M60,10h5c5,0 5,10 0,10h-5z M64,13v4h1c1,0 1,-4 -1,-4z M75,15c0,-5 8,-5 8,0 0,5 -8,5 -8,0z M88,18c0,2 5,2 5,0c0,-3 -5,-3 -5,-6c0,-2 5,-2 5,0"></path>
-              </svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Nokia">
-              <svg viewBox="0 0 100 25" className="fill-current text-white w-full h-full"><path d="M0,5h4l8,12l0,-12h4v20h-4l-8,-12l0,12h-4z M25,15c0,-10 12,-10 12,0c0,10 -12,10 -12,0z M29,15c0,5 4,5 4,0c0,-5 -4,-5 -4,0z M45,5h4v8l8,-8h5l-8,8l9,12h-5l-7,-10l-2,2v8h-4z M70,5h4v20h-4z M85,5h4l6,15l6,-15h4l-8,20h-4z"></path></svg>
-            </div>
-            <div className="client-logo w-12 h-12 flex items-center justify-center" title="XL">
-              <span className="text-xl font-bold text-blue-500">XL</span>
-            </div>
-            <div className="client-logo w-12 h-12 flex items-center justify-center" title="Hutchison">
-              <span className="text-xs font-bold text-white uppercase tracking-widest text-center">Hutchison</span>
-            </div>
-
-            {/* Banking */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Bank Mandiri">
-              <svg viewBox="0 0 120 30" className="fill-current text-white w-full h-full">
-                <path d="M10,20 C10,20 15,10 25,10 C25,10 20,25 10,20 Z" opacity="0.8"></path>
-                <path d="M35,10h4l3,8l3,-8h4v15h-3v-10l-3,8h-2l-3,-8v10h-3z M60,15c0,-3 4,-3 4,0v5h-4v-5c0,-1 -1,-1 -1,0v5h-3v-5c0,-4 4,-4 4,0z M70,10h3v2h2c2,-2 5,-2 5,2v11h-3v-8c0,-2 -2,-2 -2,0v8h-3z M90,10h4v15h-4z" transform="translate(0, 2)"></path>
-              </svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="BNI">
-              <svg viewBox="0 0 80 30" className="fill-current text-white w-full h-full"><path d="M0,5h10c5,0 5,6 0,7c3,0 3,5 0,6h-10z M4,8v3h4c1,0 1,-3 -1,-3z M4,15v4h4c1,0 1,-4 -1,-4z M20,5h4l8,12v-12h4v20h-4l-8,-12v12h-4z M50,5h4v20h-4z"></path></svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="BRI">
-              <svg viewBox="0 0 80 30" className="fill-current text-white w-full h-full"><path d="M10,0h20v25h-20z m4,4v17h12v-17z M40,5h10c5,0 5,6 0,7c3,0 3,5 0,6h-10z M44,8v3h4c1,0 1,-3 -1,-3z M44,15v4h4c1,0 1,-4 -1,-4z M65,5h10c5,0 5,8 0,10l-5,0l5,10h-5l-4,-8h-2v8h-4v-20h5z M69,9v4h5c1,0 1,-4 -1,-4z"></path></svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Danamon">
-              <svg viewBox="0 0 100 30" className="fill-current text-white w-full h-full"><path d="M10,5h8c10,0 10,20 0,20h-8z M14,9v12h3c5,0 5,-12 0,-12z M35,15c0,-4 5,-4 5,0v10h-4v-10c0,-1 -1,-1 -1,0v10h-4v-10c0,-5 5,-5 5,0z M55,15c0,-4 5,-4 5,0v10h-4v-10c0,-1 -1,-1 -1,0v10h-4v-10c0,-5 5,-5 5,0z"></path></svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Bank DKI">
-              <span className="text-sm font-bold text-white uppercase tracking-wider">Bank DKI</span>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Eximbank">
-              <span className="text-sm font-bold text-white tracking-wider">Eximbank</span>
-            </div>
-
-            {/* Energy */}
-            <div className="client-logo w-12 h-12 flex items-center justify-center" title="Chevron">
-              <svg viewBox="0 0 24 24" className="fill-current text-white w-full h-full"><path d="M4 6l8 8 8-8v4l-8 8-8-8z"></path><path d="M4 0l8 8 8-8v4l-8 8-8-8z" opacity="0.7"></path></svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Pertamina">
-              <svg viewBox="0 0 100 30" className="fill-current text-white w-full h-full">
-                <rect x="0" y="5" width="10" height="10" transform="rotate(45 5 10)"></rect>
-                <rect x="15" y="5" width="10" height="10" transform="rotate(45 20 10)" opacity="0.7"></rect>
-                <rect x="7.5" y="15" width="10" height="10" transform="rotate(45 12.5 20)" opacity="0.5"></rect>
-                <path d="M40,10h5c4,0 4,6 0,6h-1v9h-4z M44,13v1h1c1,0 1,-1 -1,-1z M60,10h10v3h-6v4h5v3h-5v5h6v3h-10z M80,10h6c3,0 3,5 0,5l2,5h-4l-1,-4h-1v4h-4v-15h2z M84,13v3h1c1,0 1,-3 -1,-3z"></path>
-              </svg>
-            </div>
-            <div className="client-logo w-12 h-12 flex items-center justify-center" title="BP">
-              <svg viewBox="0 0 24 24" className="fill-current text-white w-full h-full"><path d="M12,2l2,5l5,2l-5,2l-2,5l-2,-5l-5,-2l5,-2z M12,6l1,3l3,1l-3,1l-1,3l-1,-3l-3,-1l3,-1z"></path></svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="PetroChina">
-              <svg viewBox="0 0 100 30" className="fill-current text-white w-full h-full">
-                <circle cx="15" cy="15" r="8" opacity="0.8"></circle>
-                <path d="M35,10h5c3,0 3,5 0,5h-1v10h-4z M39,13v2h1c1,0 1,-2 -1,-2z M55,10h10v3h-6v4h5v3h-5v5h6v3h-10z M75,10h10v3h-4v12h-3v-12h-4z"></path>
-              </svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Star Energy">
-              <span className="text-xs font-bold text-white uppercase border-b-2 border-orange-500 pb-1">Star Energy</span>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Unocal">
-              <span className="text-lg font-bold text-white tracking-widest">UNOCAL</span>
-            </div>
-
-            {/* Others */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Astra International">
-              <svg viewBox="0 0 100 30" className="fill-current text-white w-full h-full"><path d="M10,25l5,-15l5,15h-3l-1,-4h-6l-1,4z M15,15l-1,4h3z M30,20c2,0 3,1 3,3c0,2 -2,2 -4,2h-4v-3z M35,12c0,-2 -2,-2 -4,-2h-6v5h5c2,0 5,-1 5,-3z M29,14v-2h2c1,0 1,1 0,1z M50,10h10v3h-4v12h-3v-12h-4z M70,10h5c3,0 3,5 0,5l2,5h-4l-1,-4h-1v4h-4v-15h2z M74,13v3h1c1,0 1,-3 -1,-3z"></path></svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="P&G">
-              <svg viewBox="0 0 80 30" className="fill-current text-white w-full h-full"><path d="M10,5h5c5,0 5,7 0,7h-1v8h-4z M14,8v2h1c1,0 1,-2 -1,-2z M35,10h2l3,4l-4,3l4,3h-2l-3,-4l-3,4h-2l4,-3l-4,-3h2l3,4z M50,15c0,-5 8,-5 8,0v4h-4v-4c0,-2 -2,-2 -2,0v4c0,2 2,2 2,0v-2h2v2c0,5 -8,5 -8,0z"></path></svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="L'Oreal">
-              <svg viewBox="0 0 100 25" className="fill-current text-white w-full h-full"><path d="M5,5v15h10v-3h-7v-12z M20,5h3v2h-3z M25,10c0,-6 10,-6 10,0s-10,6 -10,0zm3,0c0,3 4,3 4,0s-4,-3 -4,0z M45,10h5c3,0 3,4 0,4l3,6h-4l-2,-5h-1v5h-3v-15h2z M48,13v-1h2c1,0 1,1 -1,1z M65,10h10v3h-7v3h6v3h-6v3h7v3h-10z M85,25l3,-15l3,15h-2l-1,-3h-4l-1,3z M88,15l-1,4h2z"></path></svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="UPH">
-              <svg viewBox="0 0 80 30" className="fill-current text-white w-full h-full"><path d="M10,5v12c0,4 6,4 6,0v-12h4v12c0,7 -14,7 -14,0v-12z M35,5h6c4,0 4,7 0,7h-2v8h-4z M39,9v2h2c1,0 1,-2 -1,-2z M60,5v20h-4v-8h-6v8h-4v-20h4v8h6v-8z"></path></svg>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Avrist">
-              <span className="text-sm font-bold text-white italic tracking-wide">avrist</span>
-            </div>
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="FWD">
-              <span className="text-xl font-bold text-white">FWD</span>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      {/* PRINCIPALS Section */}
-      <section id="principals" className="relative z-30 py-32 px-6 md:px-12 border-t border-white/5 bg-midnight-950">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center max-w-4xl mx-auto mb-20">
-            <span className="text-accent-main text-[10px] font-bold tracking-widest uppercase mb-4 block">Our Partners</span>
-            <h2 className="text-3xl md:text-5xl font-display text-white mb-8">Principals</h2>
-            <p className="text-neutral-400 font-light leading-relaxed">
-              As PI devotes itself to constant solution development to meet our clients' evolving needs, we have worked with some of the most reputable companies in technology development. Our business solutions and partners are leaders at the forefront of technological advancements.
-            </p>
-          </div>
-
-          {/* Principals Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-x-8 gap-y-16 items-center justify-items-center">
-                
-            {/* Oracle */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Oracle">
-              <div className="flex items-center gap-1">
-                <div className="w-8 h-8 bg-red-600 rounded-sm"></div>
-                <span className="text-xl font-bold text-white tracking-wide">ORACLE</span>
+            
+            {Array.from({ length: 48 }).map((_, index) => (
+              <div key={index} className="client-logo w-32 h-12 flex items-center justify-center grayscale opacity-70 hover:opacity-100 hover:grayscale-0 transition-all duration-300 hover:scale-105">
+                <img 
+                  src={`https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/${index + 1}.png`} 
+                  alt={`Client Logo ${index + 1}`} 
+                  className="w-full h-full object-contain" 
+                />
               </div>
-            </div>
-
-            {/* Cisco */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Cisco">
-              <svg viewBox="0 0 100 40" className="fill-current text-white w-full h-full">
-                <path d="M15,25v-10h2v10h-2zm5,-4v-6h2v6h-2zm5,-7v-3h2v3h-2zm5,7v-6h2v6h-2zm5,4v-10h2v10h-2zm5,-4v-6h2v6h-2zm5,-7v-3h2v3h-2zm5,7v-6h2v6h-2zm5,4v-10h2v10h-2z"></path>
-                <text x="0" y="38" fontFamily="sans-serif" fontWeight="bold" fontSize="12" fill="white">CISCO</text>
-              </svg>
-            </div>
-
-            {/* IBM */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="IBM">
-              <svg viewBox="0 0 100 40" className="fill-current text-white w-full h-full">
-                <path d="M10,10h20v4h-20z M10,16h20v4h-20z M10,22h20v4h-20z M40,10h20v4h-20z M40,16h20v4h-20z M40,22h20v4h-20z M70,10h5v4h-5z M85,10h5v4h-5z M70,16h8v4h-8z M82,16h8v4h-8z M70,22h10v4h-10z M80,22h10v4h-10z" fill="#fff"></path>
-              </svg>
-            </div>
-
-            {/* Honeywell */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Honeywell">
-              <span className="text-xl font-bold text-red-500 tracking-tight">Honeywell</span>
-            </div>
-
-            {/* HP */}
-            <div className="client-logo w-12 h-12 flex items-center justify-center" title="HP">
-              <div className="w-10 h-10 rounded-full border-2 border-white flex items-center justify-center">
-                <span className="text-lg font-bold text-white italic">hp</span>
-              </div>
-            </div>
-
-            {/* NetApp */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="NetApp">
-              <div className="flex items-center gap-1">
-                <div className="w-6 h-8 bg-blue-600"></div>
-                <span className="text-lg font-bold text-white">NetApp</span>
-              </div>
-            </div>
-
-            {/* Konecranes */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Konecranes">
-              <span className="text-sm font-bold text-red-500 uppercase tracking-wide">KONECRANES</span>
-            </div>
-
-            {/* Splunk */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Splunk">
-              <span className="text-xl font-bold text-white">splunk&gt;</span>
-            </div>
-
-            {/* APC */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="APC">
-              <span className="text-xl font-bold text-white">APC</span>
-            </div>
-
-            {/* Eaton */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Eaton">
-              <span className="text-xl font-bold text-blue-500 uppercase">E:T-N</span>
-            </div>
-
-            {/* Visy */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Visy">
-              <span className="text-xl font-bold text-red-500 tracking-widest">VISY</span>
-            </div>
-
-            {/* Identec */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Identec Solutions">
-              <div className="text-right">
-                <div className="text-[10px] bg-blue-800 text-white px-1">IDENTEC</div>
-                <div className="text-[8px] text-blue-400">SOLUTIONS</div>
-              </div>
-            </div>
-                
-            {/* Altai */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Altai">
-              <span className="text-lg font-bold text-blue-400 border border-blue-400 px-2 rounded">ALTAI</span>
-            </div>
-                
-            {/* Panduit */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Panduit">
-              <span className="text-lg font-bold text-green-500 border-l-4 border-green-500 pl-2">PANDUIT</span>
-            </div>
-                
-            {/* Infoblox */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Infoblox">
-              <span className="text-lg font-bold text-white">Infoblox</span>
-            </div>
-
-            {/* General Cable */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="General Cable">
-              <span className="text-sm font-bold text-green-500">General Cable</span>
-            </div>
-
-            {/* Compuprint */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Compuprint">
-              <span className="text-sm font-bold text-white italic">Compuprint</span>
-            </div>
-
-            {/* Teldor */}
-            <div className="client-logo w-32 h-12 flex items-center justify-center" title="Teldor">
-              <span className="text-lg font-bold text-blue-500">TELDOR</span>
-            </div>
+            ))}
 
           </div>
         </div>
