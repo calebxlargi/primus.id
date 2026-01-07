@@ -26,15 +26,19 @@ function App() {
       {/* Ambient Lighting & Cinematic Background */}
       <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
         
-        {/* Main Hero Image (Futuristic Port) */}
+        {/* Main Hero Background (Video) */}
         <div className="absolute inset-0 z-0">
-          <img 
-            src="https://i.postimg.cc/zBBgSZxm/Gemini-Generated-Image-b4ptbqb4ptbqb4pt-gigapixel-text-shapes-2x.jpg" 
-            alt="Futuristic Digital Port" 
-            className="w-full h-full object-cover opacity-60"
-          />
-          {/* Gradient Overlay to ensure text readability */}
-          <div className="absolute inset-0 bg-gradient-to-b from-midnight-950/90 via-midnight-950/60 to-midnight-950"></div>
+          <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline 
+            className="w-full h-full object-cover"
+          >
+            <source src="https://pmqiacxzrzmmipsq.public.blob.vercel-storage.com/xlargi_hero.mp4" type="video/mp4" />
+          </video>
+          {/* Gradient Overlay to ensure text readability - slightly reduced opacity for visibility */}
+          <div className="absolute inset-0 bg-gradient-to-b from-midnight-950/80 via-midnight-950/40 to-midnight-950"></div>
         </div>
 
         {/* Top Left Red Glow */}
