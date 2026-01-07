@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { 
   Lock, 
   Menu, 
+  X,
   Container, 
   Anchor, 
   Car, 
@@ -21,6 +22,12 @@ import {
 } from 'lucide-react';
 
 function App() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
     <div className="antialiased overflow-x-hidden min-h-screen">
       {/* Ambient Lighting & Cinematic Background */}
@@ -75,9 +82,28 @@ function App() {
             <Mail className="w-3 h-3 text-accent-main" />
             Contact Us
           </a>
-          <button className="md:hidden text-white"><Menu className="w-6 h-6" /></button>
+          <button 
+            className="md:hidden text-white focus:outline-none"
+            onClick={toggleMenu}
+          >
+            {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
         </div>
       </header>
+
+      {/* Mobile Menu Overlay */}
+      {isMobileMenuOpen && (
+        <div className="fixed inset-0 z-40 bg-midnight-950/95 backdrop-blur-xl flex flex-col items-center justify-center animate-fade-in">
+          <nav className="flex flex-col items-center gap-8">
+            <a href="#about" onClick={toggleMenu} className="text-2xl font-display font-medium text-white hover:text-accent-main transition-colors">Vision</a>
+            <a href="#eagle" onClick={toggleMenu} className="text-2xl font-display font-medium text-white hover:text-accent-main transition-colors">1-Eagle</a>
+            <a href="#solutions" onClick={toggleMenu} className="text-2xl font-display font-medium text-white hover:text-accent-main transition-colors">Troboss</a>
+            <a href="#clients" onClick={toggleMenu} className="text-2xl font-display font-medium text-white hover:text-accent-main transition-colors">Clients</a>
+            <a href="#principals" onClick={toggleMenu} className="text-2xl font-display font-medium text-white hover:text-accent-main transition-colors">Principals</a>
+            <a href="#contact" onClick={toggleMenu} className="text-2xl font-display font-medium text-white hover:text-accent-main transition-colors">Contact</a>
+          </nav>
+        </div>
+      )}
 
       <main className="relative z-30 min-h-screen flex flex-col items-center justify-center px-6 pt-24 md:pt-0">
         
@@ -558,7 +584,7 @@ function App() {
               <div>
                 <p className="text-neutral-500 text-[10px] font-bold tracking-widest uppercase mb-2">Head Office Contact</p>
                 <p className="text-neutral-400 font-mono text-sm tracking-wide">
-                  <span className="text-neutral-600">P:</span> +6221 4584.3020 <span className="mx-3 text-neutral-800">|</span> <span className="text-neutral-600">F:</span> +6221 4584.3022
+                  <span className="text-neutral-600">P:</span> +6221 4584.3020 <span class="mx-3 text-neutral-800">|</span> <span className="text-neutral-600">F:</span> +6221 4584.3022
                 </p>
               </div>
 
